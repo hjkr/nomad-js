@@ -1,43 +1,43 @@
 const quotes = [
     {   
-        quote:'quote 1',
-        author:'author 1'
+        quote:'Better late than never.',
+        author:'Unknown'
     },
     {   
-        quote:'quote 2',
-        author:'author 2'
+        quote:'Isn\'t it a pleasure to study, and to practice what you have learned.',
+        author:'Confucius'
     },
     {   
-        quote:'quote 3',
-        author:'author 3'
+        quote:'If one remains not annoyed when his greatness is not recognized in his time, isn\’t he a sage?',
+        author:'Confucius'
     },
     {   
-        quote:'quote 4',
-        author:'author 4'
+        quote:'To go beyond is as wrong as to fall short.',
+        author:'Confucius'
     },
     {   
-        quote:'quote 5',
-        author:'author 5'
+        quote:'What superior man seeks is in himself. What the mean man seeks is in others.',
+        author:'Confucius'
     },
     {   
-        quote:'quote 6',
-        author:'author 6'
+        quote:'Life is really simpe, but we insist on making it complicated.',
+        author:'Confucius'
     },
     {   
-        quote:'quote 7',
-        author:'author 7'
+        quote:'Habit is second nature.',
+        author:'Unknown'
     },
     {   
-        quote:'quote 8',
-        author:'author 8'
+        quote:'Study the past if you would define the future.',
+        author:'Confucius'
     },
     {   
-        quote:'quote 9',
-        author:'author 9'
+        quote:'Men\'s natures are alike, it is their habits that carry them far apart.',
+        author:'Confucius'
     },
     {   
-        quote:'quote 10',
-        author:'author 10'
+        quote:'The essence of knowledge is, having it, to apply it; not having it, to confess your ignorance.',
+        author:'Confucius'
     },
 ]
 
@@ -49,4 +49,4 @@ const index = Math.floor(Math.random()*quotes.length)
 
 
 quote.innerText = quotes[index].quote
-author.innerText = quotes[index].author
+author.innerText = `- ${quotes[index].author} -`

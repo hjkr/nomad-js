@@ -8,8 +8,88 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:60%;
-    }
+}
 
 .hidden {
     display: none
+}
+
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+    align-items: end;
+    height: 50px;
+}
+
+.myday {
+    display: grid;
+    grid-template-rows: repeat(auto-fit,1fr);
+    height: 40vh;
+
+}
+
+.quote {
+    font-size: 24px;
+    color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 100px;
+    color: rgb(234, 132, 132);
+}
+
+.today {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal {
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos {
+    margin: 10px 10px;
+    position:absolute;
+
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    height:300px;
+    right:50px;
+    bottom:50px;
+    
+    background-color:rgba(255,160,122,0.5);
+}
+    
+#todo-form {
+    align-self: center;
+}
+#todo-form input {
+    width: 250px;
+    background-color: antiquewhite;
+}
+
+.todo-button {
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+.todo-item {
+    min-width: 300px;
 }

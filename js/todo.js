@@ -39,7 +39,11 @@ function paintTodo(newTodoObj) {
     const li = document.createElement("li")
     const span = document.createElement("span")
     const button = document.createElement("button")
+    span.classList.add('todo-item')
+
     button.innerText = "✕"
+    button.classList.add('todo-button')
+
 
     li.id = newTodoObj.id
     li.appendChild(span)
