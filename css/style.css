@@ -35,7 +35,7 @@ body {
 
 .quote {
     font-size: 24px;
-    color: darkgrey;
+    color: purple;
     display: flex;
     flex-direction: column;
     justify-content: center;

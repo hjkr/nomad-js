@@ -1,21 +1,15 @@
-// const images = [
-//     {"url":"https://www.pexels.com/photo/red-dahlia-flower-60597/",
-//      "author":"Pixabay"
-//     },
-//     {"url":"https://www.pexels.com/photo/blue-green-and-brown-peacock-65894/",
-//         "author":"Pixabay",
-//     },
-//     {"url":"https://www.pexels.com/photo/yellow-flower-1322444/",
-//         "author":"Zahaoha",
-//     },
-//     {"url":"https://www.pexels.com/photo/close-up-photography-of-pink-tulip-flower-36729/",
-//         "author":"Pixabay",
-//     },
-   
-// ]
 
 const images =[
-    "0.jpeg"
+    "0.jpeg",
+    "1.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg",
+    "5.jpg",
+    "6.webp",
+    "7.webp",
+    "8.webp",
+    "9.webp",
 ]
 
 const imgIndex = Math.floor(Math.random()*images.length)
